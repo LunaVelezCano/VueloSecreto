@@ -1,0 +1,30 @@
+Historia de Usuario Epica
+
+Sistema de Informacion Transaccional
+
+1. Nombre del proyecto: Vuelo Secreto
+2. Proceso: Reservar vuelos de diferentes aerolineas
+3. Actores: Asesor de ventas | Pasajero
+4. Producto/Servicio: Servicio de Reservar Vuelos de Diferentes Aerolineas
+5. Escenario Actal:
+
+  5.1. El pasajero llama y solicita una reservacion.
+  5.2. El Asesor Consulta la disponibilidad para dicho vuelo y la confirma
+  5.3. El Asesor notifica al pasajero las opciones disponibles
+  5.4. El pasajero selecciona la Opcion a conveniencia
+  5.5. El asesor ingresa la reserva
+  5.6. El asesor notifica la reserva
+  5.7. El Pasajero acepta la reserva y finaliza
+
+El Pasajero llama a la agencia de viajes y solicita una reserva de un vuelo que incluye, vuelo de ida, hospedaje y vuelo de regreso. El asesor de ventas, toma la reserva y agenda el viaje con la aerolinea correspondiente; posteriormente el asesor llama al cliente y confirma la reservación del viaje
+6.Requerimiento:
+La Agencia de Viajes Vuelo Secreto requiere un sistema de informacion transaccional que le permita gestionar las reservas de los vuelos por parte de los pasajeros.
+7.Escenario Objetivo:
+Se requiere un sisitema de informacion que le de eficiencia y eficacia al proceso de reservacion de vuelos a los pasajeros, permitiendo a la agencia de viajes tener mas aerolineas y vuelos disponibles para sus pasajeros, fidelizar la información de los pasajeros, administrar las reservas, transaccionalidad del proceso y administracion institucional.
+8.Problematica:
+Las reservas de los vuelos se hacen de manera manual y se presentan errores de reservas duplicadas, perdidas o canceladas ya que se le dificulta al asesor saber la disponibilidad de la totalidad de los vuelos. Se necesita identificar la información del cliente para fidelizacion, posicionamiento a la empresa como referente comercial a nivel nacional e internacional
+9.Solución:
+Sistema de Informacion Transaccional que permita gestionar las reservas en tiempo real desde una plataforma tipo web.
+
+
+
