@@ -4,27 +4,70 @@ Sistema de Informacion Transaccional
 
 1. Nombre del proyecto: Vuelo Secreto
 2. Proceso: Reservar vuelos de diferentes aerolineas
-3. Actores: Asesor de ventas | Pasajero
-4. Producto/Servicio: Servicio de Reservar Vuelos de Diferentes Aerolineas
-5. Escenario Actal:
+3. Mision: (ahora) La agencia Vuelo Secreto, se encarga de reservas viajes turisticos nacionales e
+ internacionales con diferentes aerolineas
+4. Vision: (futuro) La agenvia Vuelo Secreto se proyecta como un referente internacinal con servicios en 
+linea que permiten agendar las reservaciones de una manera facil y rapida para sus pasajeros 
+5. Actores: Asesor de ventas | Pasajero
+6. Producto/Servicio: Servicio de Reservar Vuelos de Diferentes Aerolineas
+7. Escenario Actual:
+El Pasajero llama a la agencia de viajes y solicita una reserva de un vuelo que incluye, vuelo de ida,
+ hospedaje y vuelo de regreso. El asesor de ventas, toma la reserva y agenda el viaje con la aerolinea 
+ correspondiente; posteriormente el asesor llama al cliente y confirma la reservación del viaje
+8. Escenario Objetivo:
+Se requiere un sisitema de informacion que le de eficiencia y eficacia al proceso de reservacion de vuelos
+ a los pasajeros, permitiendo a la agencia de viajes tener mas aerolineas y vuelos disponibles para sus 
+ pasajeros, fidelizar la información de los pasajeros, administrar las reservas, transaccionalidad del 
+ proceso y administracion institucional.
+9. Problematica:
+Las reservas de los vuelos se hacen de manera manual y se presentan errores de reservas duplicadas, perdidas
+ o canceladas ya que se le dificulta al asesor saber la disponibilidad de la totalidad de los vuelos. 
+ Se necesita identificar la información del cliente para fidelizacion, posicionamiento a la empresa como
+  referente comercial a nivel nacional e internacional
+10. Solución:
+Sistema de Informacion Transaccional que permita gestionar las reservas en tiempo real desde una plataforma
+ tipo web.
+11. Requerimiento:
+La Agencia de Viajes Vuelo Secreto requiere un sistema de informacion transaccional que le permita gestionar 
+las reservas de los vuelos por parte de los pasajeros.
+El sistema requiere gestionar la informacion relacionada con la globalidad del proceso (pais, departamento y ciudad),
+gestionar la informacion relacionada con la empresa (referente empresarial) (Agencia, sede y empleado), Gestional la informacion de sus usuarios 
+(fidelizacion del cliente) (Usuario,Tipo de documento, Tipo genero, Tipo Estado civil),gestionar la información del producto (masificacion del producto)
+(Destino, Tipo de viaje, Tipo clase) y gestionar la reserva del viaje (Control de la Transaccion)(Factura, detalle factura, Estado factura)
+12. Pasos del proceso:   
+  1. El pasajero llama y solicita una reservacion.
+  2. El Asesor Consulta la disponibilidad para dicho vuelo y la confirma
+  3. El Asesor notifica al pasajero las opciones disponibles
+  4. El pasajero selecciona la Opcion a conveniencia
+  5. El asesor ingresa la reserva
+  6. El asesor notifica la reserva
+  7. El Pasajero acepta la reserva y finaliza
+13. Objetos de Alto Valor:
 
-  5.1. El pasajero llama y solicita una reservacion.
-  5.2. El Asesor Consulta la disponibilidad para dicho vuelo y la confirma
-  5.3. El Asesor notifica al pasajero las opciones disponibles
-  5.4. El pasajero selecciona la Opcion a conveniencia
-  5.5. El asesor ingresa la reserva
-  5.6. El asesor notifica la reserva
-  5.7. El Pasajero acepta la reserva y finaliza
+  1. Geografia
+    Pais
+    Departamneto
+    Ciudad
+  2. Empresa
+    Agencia
+    Sede
+    Empleado
+  3. Cliente
+    Usuario
+    Tipo documento
+    Tipo genero
+    Tipo Estado Civil
+  4. Producto
+    Destino
+    Tipo de viaje
+    Tipo clase
+  5. Transaccion
+    Factura
+    Detalle de factura
+    Estado de factura
 
-El Pasajero llama a la agencia de viajes y solicita una reserva de un vuelo que incluye, vuelo de ida, hospedaje y vuelo de regreso. El asesor de ventas, toma la reserva y agenda el viaje con la aerolinea correspondiente; posteriormente el asesor llama al cliente y confirma la reservación del viaje
-6.Requerimiento:
-La Agencia de Viajes Vuelo Secreto requiere un sistema de informacion transaccional que le permita gestionar las reservas de los vuelos por parte de los pasajeros.
-7.Escenario Objetivo:
-Se requiere un sisitema de informacion que le de eficiencia y eficacia al proceso de reservacion de vuelos a los pasajeros, permitiendo a la agencia de viajes tener mas aerolineas y vuelos disponibles para sus pasajeros, fidelizar la información de los pasajeros, administrar las reservas, transaccionalidad del proceso y administracion institucional.
-8.Problematica:
-Las reservas de los vuelos se hacen de manera manual y se presentan errores de reservas duplicadas, perdidas o canceladas ya que se le dificulta al asesor saber la disponibilidad de la totalidad de los vuelos. Se necesita identificar la información del cliente para fidelizacion, posicionamiento a la empresa como referente comercial a nivel nacional e internacional
-9.Solución:
-Sistema de Informacion Transaccional que permita gestionar las reservas en tiempo real desde una plataforma tipo web.
+14. Entidades de Alto Valor
 
+15. Atributos Calidad
 
-
+16. Valores Significativos

@@ -1,0 +1,22 @@
+-- Crear tabla Factura
+CREATE TABLE "Factura" (
+	"IdFactura" UUID NOT NULL UNIQUE,
+	"IdSede" UUID NOT NULL,
+	"IdUsuario" UUID NOT NULL,
+	"IdDestino" UUID NOT NULL,
+	"IdMoneda" UUID NOT NULL,
+	"IMPUESTROS" INTEGER,
+	"Activo" BIT DEFAULT '1',
+	"Actualiza" TIMESTAMP,
+	PRIMARY KEY("IdFactura"),
+	FOREIGN KEY("IdSede") REFERENCES "Sede"("IdSede")
+	ON UPDATE NO ACTION ON DELETE NO ACTION,
+	FOREIGN KEY("IdUsuario") REFERENCES "Usuario"("IdUsuario")
+	ON UPDATE NO ACTION ON DELETE NO ACTION,
+	FOREIGN KEY("IdDestino") REFERENCES "Destino"("IdDestino")
+	ON UPDATE NO ACTION ON DELETE NO ACTION,
+	FOREIGN KEY("IdMoneda") REFERENCES "Moneda"("IdMoneda")
+	ON UPDATE NO ACTION ON DELETE NO ACTION
+);
+
+COMMENT ON TABLE "Factura" IS 'Transaccion';

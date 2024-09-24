@@ -1,0 +1,42 @@
+[
+  {
+    "IdPais": "53819c86-a353-42ad-866f-576b2cb289f3",
+    "IdCiudad": "27926864-6268-479b-ab14-3f53b0476263",
+    "NombrePais": "Colombia",
+    "NombreCiudad": "Bogotá",
+    "IdDepartamento": "a91a44e2-fcdb-4187-84f9-1d2a047ebec6",
+    "NombreDepartamento": "Cundinamarca"
+  },
+  {
+    "IdPais": "3d309feb-2f9d-4055-b804-7587f93b4f13",
+    "IdCiudad": "227aafa9-0784-43c1-91e2-23fae84973db",
+    "NombrePais": "Perú",
+    "NombreCiudad": "Arequipa",
+    "IdDepartamento": "91519e24-b5cd-42be-b233-dc0565947412",
+    "NombreDepartamento": "Lima"
+  },
+  {
+    "IdPais": "3573a8d5-a964-45b8-8293-59b30d37899e",
+    "IdCiudad": "ecb7a837-cd9d-4b62-9e82-c1d9f55690e6",
+    "NombrePais": "México",
+    "NombreCiudad": "Guadalajara",
+    "IdDepartamento": "227c969a-885e-494c-86f3-288a39ae91e2",
+    "NombreDepartamento": "Jalisco"
+  },
+  {
+    "IdPais": "ef9de01a-164e-43c4-82fa-891db5f2597c",
+    "IdCiudad": "e85aa357-9409-45df-97dd-1f2881e81ccc",
+    "NombrePais": "Argentina",
+    "NombreCiudad": "La Plata",
+    "IdDepartamento": "a5870f7c-8349-4d76-a6b5-b2f6a8417d88",
+    "NombreDepartamento": "Buenos Aires"
+  },
+  {
+    "IdPais": "c4f91e9c-f09c-4573-b72d-8f706260275f",
+    "IdCiudad": "7e67edef-8791-42bb-a036-16f1edca8d97",
+    "NombrePais": "Chile",
+    "NombreCiudad": "Valparaíso",
+    "IdDepartamento": "b3d891a3-fc31-42e1-a8c3-942d501013f5",
+    "NombreDepartamento": "Santiago"
+  }
+]
